@@ -1,0 +1,96 @@
+#app-container{
+   box-sizing: border-box;
+}
+body{
+   background-color: #E8DB1C;
+   text-align: center;
+}
+h2{
+   font-family: courier;
+}
+span{
+   color: antiquewhite;
+}
+em{
+   text-decoration: underline;
+
+}
+.info:hover{
+   color: #E4FF1F;
+}
+.images{
+   display: none;
+}
+.container{
+   border: 2px solid #323432;
+   text-align: center;
+   font-size: 25px;
+   height: 1450px;
+   margin-left: auto;
+   margin-right: auto;
+   border-radius: 15%;
+   background-color: #FFAC1F;
+}
+.table{
+   text-align: center;
+   background-color: #E8B11C;
+   border: 2px solid black;
+   border-radius: 2%;
+   margin-left: auto;
+   height: 1300px;
+   width: 400px;
+   margin-right: auto;
+}
+img{
+   width: 125px;
+   height: 125px;
+   margin-left: -1px;
+   margin-bottom: -7px;
+   margin-top: -1px;
+   margin-right: -1px;
+}
+td:hover{
+   background-color: #ffac1f;
+   margin-left: auto;
+   margin-right: auto;
+   color: red;
+}
+
+
+td{
+   border: 2px solid black;
+   border-radius: 8%;
+}
+
+th{
+   text-decoration: underline;
+   padding: 10px;
+}
+
+@media only screen and (max-width: 1023px) {
+  /* styles for screen viewports that have a width of 800px or more */
+  body {
+    background: rebeccapurple;
+    width: 100%;
+  }
+  h2{
+     display: none;
+ }
+  .table{
+     display: none;
+ }
+ .images{
+    display: block;
+}
+.container{
+   height: 90%;
+}
+img{
+   border: 2px solid rebeccapurple;
+   border-radius: 15%;
+   width: 80%;
+   height: 475px;
+   margin-left: auto;
+   margin-right: auto;
+}
+}
